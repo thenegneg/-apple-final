@@ -1,0 +1,47 @@
+@import "-media.scss";
+@include media(1400px);
+@include media(1200px);
+@include media(992px);
+@include media(768px);
+@include media(576px);
+@include media(575px);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  > div.wraper {
+    width: inherit;
+    height: inherit;
+    > div.all-menu {
+      width: 100%;
+      position: absolute;
+      top: 44px;
+      height: 4000px;
+    }
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.bg01 {
+  margin: 0 !important;
+  margin-top: 3px !important;
+}
+
+.bg02 {
+  margin: 0 !important;
+  margin-top: 3px !important;
+}
+
+.bb {
+  padding: 0 !important;
+}
